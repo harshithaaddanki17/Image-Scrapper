@@ -1,29 +1,26 @@
 # 🖼️ Image Scraper using Bing (Python)
 
-This is a simple Python project that **scrapes and downloads images** from Bing using the `icrawler` library.  
-You can specify the keyword (e.g., "man bleeding") and the number of images you want, and it will download them to a folder of your choice.
+This project is a simple Python tool to scrape and download images from Bing using user-given keywords. It asks for the keyword, number of images, and the folder path where you want to save the images.
 
 ---
 
-## 🚀 Features
+## ✅ Features
 
 - Downloads images from Bing based on user input
-- Automatically creates the target folder if it doesn't exist
-- Easy to run and beginner-friendly
+- Asks for number of images and folder location
+- Automatically creates the folder if it doesn’t exist
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python
-- [`icrawler`](https://pypi.org/project/icrawler/) library
-- Standard Python libraries: `os`
+- icrawler
+- os module
 
 ---
 
 ## 📦 Installation
 
-1. **Clone the Repository** (or copy the code into your own Python file):
-   ```bash
-   git clone https://github.com/your-username/image-scraper.git
-   cd image-scraper
+```bash
+pip install icrawler
